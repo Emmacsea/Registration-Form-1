@@ -105,7 +105,10 @@ export const Registration = ({
 
 
                         <div className="mt-14 flex items-center justify-center">
-                            <p className="text-gray-800 text-xs font-normal flex items-center gap-2">Already have an account? <span className="text-cyan-300"> Sign In</span></p>
+                            <p className="text-gray-800 text-xs font-normal flex items-center gap-2">
+                                Already have an account? 
+                                <a className="text-cyan-300" href=""> Sign In</a>
+                            </p>
 
                         </div>
 
