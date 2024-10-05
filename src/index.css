@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lab {
+    @apply text-black text-lg font-semibold mb-0 mt-3
+}
+
+.inp {
+    @apply text-neutral-lightgrey text-base border-b-4 border-b-neutral-mediumgrey px-3 outline-none bg-transparent
+}
+
+.btn {
+    @apply text-neutral-white text-lg rounded-lg bg-black font-medium w-full py-2
+}
